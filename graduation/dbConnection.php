@@ -1,9 +1,9 @@
 <?php
 // Database credentials
-$host = 'mysql309.phy.lolipop.lan';        // Usually 'localhost' or your server's IP address
-$username = 'LAA1516492'; // Your database username
-$password = '1234'; // Your database password
-$dbname = 'LAA1516492-zikanwari';   // Your database name
+$host = '';        // Usually 'localhost' or your server's IP address
+$username = ''; // Your database username
+$password = ''; // Your database password
+$dbname = '';   // Your database name
 
 // Create a connection
 $conn = mysqli_connect($host, $username, $password, $dbname);
