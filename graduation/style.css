@@ -1,0 +1,95 @@
+
+    /* Custom CSS to control the form width on smaller screens */
+    @media (max-width: 576px) {
+        .login-card {
+          width: 90%; /* Adjust the width to 90% on small screens */
+          margin: 0 auto; /* Center the card */
+        }
+      }
+  
+      @media (min-width: 576px) {
+        .login-card {
+          width: 100%;
+        }
+      }
+  
+      /* Optional: Add padding for better spacing */
+      .login-container {
+        padding: 1rem;
+      }
+  
+      .login-card {
+        max-width: 400px; /* Max width for login card */
+      }
+ footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+  }
+
+    /* Custom CSS for green theme */
+    .navbar, footer {
+      background-color: #808080; /* Green */
+    }
+
+    .navbar .nav-link.active, .navbar .navbar-brand, footer a {
+      color: white; /* White text on navbar */
+    }
+
+    .btn-primary {
+      background-color: #28a745; /* Green for buttons */
+      border-color: #28a745;
+    }
+
+    .btn-primary:hover {
+      background-color: #218838; /* Darker green on hover */
+      border-color: #1e7e34;
+    }
+
+    .card {
+      border-color: #28a745; /* Green border for cards */
+    }
+
+    /* Custom CSS to control the form width on smaller screens */
+    @media (max-width: 576px) {
+      .login-card {
+        width: 90%; /* Adjust the width to 90% on small screens */
+        margin: 0 auto; /* Center the card */
+      }
+    }
+
+    @media (min-width: 576px) {
+      .login-card {
+        width: 100%;
+      }
+    }
+
+    .login-container {
+      padding: 1rem;
+    }
+
+    .login-card {
+      max-width: 400px; /* Max width for login card */
+    }
+
+    /* Blue table styles */
+    .table {
+      border: 1px solid #218838; /* Blue border */
+    }
+
+    .table th {
+      background-color: #218838; /* Blue header background */
+      color: white; /* White text in the table header */
+    }
+
+    .table tbody tr:nth-child(even) {
+      background-color: #e9f7ff; /* Light blue row for even rows */
+    }
+
+    .table tbody tr:nth-child(odd) {
+      background-color: #f0f8ff; /* Lighter blue for odd rows */
+    }
+
+    footer a {
+      color: white;
+    }
