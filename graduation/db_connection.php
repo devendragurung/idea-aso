@@ -1,9 +1,9 @@
 <?php
 // Database connection settings
-$servername = "mysql311.phy.lolipop.lan";
-$username = "LAA1516492";
-$password = "1234";
-$dbname = "LAA1516492-keziban";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Establishing a database connection
 $conn = new mysqli($servername, $username, $password, $dbname);
