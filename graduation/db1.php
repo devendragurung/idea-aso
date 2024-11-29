@@ -1,9 +1,9 @@
 <?php
 // Database connection parameters
-$host = 'mysql311.phy.lolipop.lan'; // Replace with your host (e.g., 127.0.0.1)
-$db   = 'LAA1516492-keziban'; // Replace with your database name
-$user = 'LAA1516492'; // Replace with your database username
-$pass = '1234'; // Replace with your database password
+$host = ''; // Replace with your host (e.g., 127.0.0.1)
+$db   = ''; // Replace with your database name
+$user = ''; // Replace with your database username
+$pass = ''; // Replace with your database password
 $charset = 'utf8mb4';
 
 // Set up the DSN (Data Source Name)
