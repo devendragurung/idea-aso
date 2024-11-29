@@ -1,10 +1,10 @@
 <?php
 // db_connect.php
 
-$host = 'mysql311.phy.lolipop.lan'; // Your database host
-$user = 'LAA1516492';      // Your database username
-$pass = '1234';          // Your database password
-$db_name = 'LAA1516492-keziban'; // Database name
+$host = ''; // Your database host
+$user = '';      // Your database username
+$pass = '';          // Your database password
+$db_name = ''; // Database name
 
 // Create a connection
 $conn = new mysqli($host, $user, $pass, $db_name);
